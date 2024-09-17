@@ -2,7 +2,7 @@
 
 The `dig` (Domain Information Groper) command in Kali Linux is a network administration tool for querying DNS (Domain Name System) name servers. It is useful for troubleshooting DNS problems and obtaining information like IP addresses and other DNS records for a given domain.
 
-## Basic Syntax
+## Syntax
 
 ```bash
 dig [options] [hostname] [query type] [@server]
@@ -112,7 +112,7 @@ To query a DNS server on a non-standard port:
     dig example.com @8.8.8.8 -p 80
   ```
 
-## 8. IPv4 and IPv6 Specific Queries
+### 8. IPv4 and IPv6 Specific Queries
 
 `-4`: Restricts the query to only IPv4 addresses (A records).
 
@@ -128,4 +128,4 @@ To query a DNS server on a non-standard port:
 
 ## Resources
 - [Kali Docs](https://www.kali.org/tools/bind9/#dig)
-- [Dig man page](https://linux.die.net/man/1/dig)
+- [Dig man page](https://linuxcommandlibrary.com/man/dig)
